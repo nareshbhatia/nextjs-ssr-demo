@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-ssr-demo",
+  "version": "1.0.0",
+  "author": "Naresh Bhatia",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "format": "prettier --write '{components,pages}/**/*.js' 'server.js'"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "prettier": "^1.14.3",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
